@@ -9,42 +9,42 @@ If, when designing/developing for your DDC USB device, check to see if the SDK u
 Currently Supported Functions:
 
 - General Functions:
-'''
+```
 aceErrorStr
 aceInitialize
 aceBCStart
 aceBCConfigure
 aceBCStop
 aceFree
-'''
+```
 
 - Data Block Functions:
-'''
+```
 aceBCDataBlkCreate
 aceBCDataBlkDelete
-'''
+```
 
 - Message Functions:
-'''
+```
 aceBCMsgCreateBCtoRT
 aceBCAsyncMsgCreateBCtoRT
 aceBCMsgCreateRTtoBC
 aceBCMsgDelete
 aceBCSendAsyncMsgHP
-'''
+```
 
 - OpCode Functions
-'''
+```
 aceBCOpCodeCreate
-'''
+```
 
 - Major / Minor Frame Functions
-'''
+```
 aceBCFrameCreate
-'''
+```
 
 - Hardware Buffer Functions
-'''
+```
 aceBCInstallHBuf
 aceBCGetHBufMsgDecoded
-'''
+```
