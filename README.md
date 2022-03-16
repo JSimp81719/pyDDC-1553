@@ -1,7 +1,11 @@
 # pyDDC-1553 for DDC:tm: MIL-STD-1553 Devices
 
 Python Wrapper for most DDC:tm: MIL-STD-1553 USB Devices.
-
+<br/>
+<br/>
+![DDC Device](https://www.ddc-web.com/resources/assets/images/_Products/bu65591u.jpg)
+<br/>
+<br/>
 This wraps the DDC:tm: ***emacepl.dll*** C-library for use in python 3.6+ applications.
 
 The most important functions are contained within the DDC.py file for easy re-use as a stand-alone library. The Main.py script contains an example of how to configure and use the DDC:tm: device and its library.
